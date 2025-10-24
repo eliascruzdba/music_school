@@ -16,9 +16,7 @@ Este tutorial mostra o **fluxo completo de trabalho com Git e GitHub** usando br
 
 Fluxo lógico da criação de um projeto no GitHub:
 
-```
-
-GitHub
+```GitHub
 main
 │
 │ clone
@@ -40,9 +38,8 @@ feature/music_repo01
 ▼
 GitHub
 main (atualizado)
-
-````
-
+```
+```
 ### Passos:
 
 1. Criar repositório no GitHub: `music_school.git`
