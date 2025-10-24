@@ -1,0 +1,26 @@
+  # Tutorial Completo de Git e GitHub – Branch, Pull Request e PySpark
+
+Este repositório tem como objetivo ensinar o fluxo completo de **trabalho com Git e GitHub**, usando branches, commits, push e Pull Requests, tanto pelo **terminal local** quanto **diretamente no GitHub**.
+
+---
+
+## Pré-requisitos
+
+Antes de começar, você precisa:
+
+- Ter o **Git instalado** na sua máquina.  
+  [Download Git](https://git-scm.com/downloads)  
+- Criar uma **conta no GitHub**.  
+  [Cadastro GitHub](https://github.com/join)
+
+---
+
+##Fluxo lógico da criação de um projeto no GitHub:
+
+1. git clone <url-repo>
+2. alterar uma linha no código pyspark (Colab)
+3. git checkout -b feature/pyspark_colab --criar uma branch local
+4. git add exemplo_pyspark_colab.py --add arquivo
+5. git commit -m "mensagem" --comentário da alteração
+6. git push -u origin feature/pyspark_colab --enviar alterações [branch criada + alteração do arquivo]
+7. merge no GitHub → main "compare and pull request" --comunicar o revisor...
