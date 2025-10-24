@@ -36,6 +36,7 @@ Create a Python script to generate fictitious student data and save it to a CSV 
 #     {'student_id': 108, 'name': 'Helen Parr', 'age': 18, 'instrument': 'Cello', 'enrollment_date': datetime(2023, 12, 1)},
 #     {'student_id': 109, 'name': 'Ian Malcolm', 'age': 16, 'instrument': 'Piano', 'enrollment_date': datetime(2024, 1, 1)},
 #     {'student_id': 110, 'name': 'Jane Doe', 'age': 17, 'instrument': 'Trumpet', 'enrollment_date': datetime(2024, 1, 15)},
+      {'student_id': 111, 'name': 'Elias Cruz', 'age': 43, 'instrument': 'Saxophone', 'enrollment_date': datetime(1982, 3, 08)},  
 # ]
 # 
 # # Convert to DataFrame
