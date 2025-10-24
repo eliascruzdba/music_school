@@ -1,26 +1,87 @@
-  # Tutorial Completo de Git e GitHub – Branch, Pull Request e PySpark
+````
+# 🚀 Tutorial Completo de Git e GitHub – Branch, Pull Request e PySpark
 
-Este repositório tem como objetivo ensinar o fluxo completo de **trabalho com Git e GitHub**, usando branches, commits, push e Pull Requests, tanto pelo **terminal local** quanto **diretamente no GitHub**.
+Este repositório tem como objetivo ensinar o fluxo completo de **trabalho com Git e GitHub**, usando **branches**, **commits**, **push** e **Pull Requests**, tanto pelo **terminal local** quanto **diretamente no GitHub**.
 
 ---
 
-## Pré-requisitos
+## 🛠️ Pré-requisitos
 
 Antes de começar, você precisa:
 
-- Ter o **Git instalado** na sua máquina.  
+- ✅ Ter o **Git instalado** na sua máquina  
   [Download Git](https://git-scm.com/downloads)  
-- Criar uma **conta no GitHub**.  
+- ✅ Criar uma **conta no GitHub**  
   [Cadastro GitHub](https://github.com/join)
 
 ---
 
-##Fluxo lógico da criação de um projeto no GitHub:
+## 🌱 Fluxo lógico da criação de um projeto no GitHub
 
-1. git clone <url-repo>
-2. alterar uma linha no código pyspark (Colab)
-3. git checkout -b feature/pyspark_colab --criar uma branch local
-4. git add exemplo_pyspark_colab.py --add arquivo
-5. git commit -m "mensagem" --comentário da alteração
-6. git push -u origin feature/pyspark_colab --enviar alterações [branch criada + alteração do arquivo]
-7. merge no GitHub → main "compare and pull request" --comunicar o revisor...
+1. **Clonar o repositório**:
+   ```bash
+   git clone <url-repo>
+````
+
+2. **Alterar uma linha** no código PySpark (ex: Google Colab).
+3. **Criar uma branch local**:
+
+   ```bash
+   git checkout -b feature/pyspark_colab
+   ```
+4. **Adicionar o arquivo** ao stage:
+
+   ```bash
+   git add exemplo_pyspark_colab.py
+   ```
+5. **Criar o commit** com mensagem descritiva:
+
+   ```bash
+   git commit -m "Adiciona exemplo PySpark executável"
+   ```
+6. **Enviar a branch para o GitHub**:
+
+   ```bash
+   git push -u origin feature/pyspark_colab
+   ```
+7. **Criar o Pull Request e merge no GitHub**:
+
+   * Clique em **Compare & pull request** 🔀
+   * Revise as alterações 🧐
+   * Clique em **Merge pull request** ✅
+   * Comunique o revisor se necessário 💬
+
+---
+
+## 💡 Dicas importantes
+
+* ✨ Use **mensagens de commit claras** e descritivas.
+* 🌿 Crie **branches separadas para cada feature** ou alteração.
+* 🔄 Utilize Pull Requests para **revisão de código e histórico organizado**.
+* 🧹 Após merge, delete a branch local e remota:
+
+  ```bash
+  git branch -d feature/pyspark_colab
+  git push origin --delete feature/pyspark_colab
+  ```
+
+---
+
+## 🔀 Fluxo resumido visual
+
+```
+Terminal Local                GitHub Online
+---------------               ----------------
+git clone <repo>              ↘ Navegar até arquivo
+git checkout -b feature/x     ↘ Editar + commit
+(editar arquivo)              ↘ Pull Request
+git add + git commit          ↘ Merge
+git push origin feature/x
+Merge via Pull Request
+```
+
+---
+
+Este tutorial fornece um **guia completo para iniciantes e profissionais**, cobrindo desde **alterações locais em PySpark** até **edição direta no GitHub**, com **branches e Pull Requests** bem organizados.
+
+```
