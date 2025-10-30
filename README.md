@@ -12,6 +12,13 @@ Este tutorial mostra o **fluxo completo de trabalho com Git e GitHub** usando br
 
 ---
 
+## Abstração
+
+- Realizar a mecânica básica do versionamento iniciando pelo clone do repositório, criação da Branch, realização das alterações no código, commit, push e finalização com o pull request (utilizando o repositorio GitHub).
+- Este é o cenário encontrado na maioria das empresas em relação ao trabalho colaborativo entre desenvolvedores e este entendimento é de estrema importância.
+
+---
+
 ## Cenário 1 – Criação de Projeto
 
 Fluxo lógico da criação de um projeto no GitHub:
