@@ -1,7 +1,6 @@
-```markdown
-# Tutorial de Git e GitHub – Branch e Pull Request (Visual)
+# Tutorial – Branch e Pull Request (Visual)
 
-Este tutorial mostra o **fluxo completo de trabalho com Git e GitHub** usando branches, commits, push e Pull Requests, com diagramas que facilitam o entendimento.
+Este tutorial mostra o **fluxo completo de trabalho com Git e GitHub** usando branches, commits, push e Pull Requests — com diagramas que facilitam o entendimento.
 
 ---
 
@@ -12,14 +11,14 @@ Este tutorial mostra o **fluxo completo de trabalho com Git e GitHub** usando br
 
 ---
 
-## Abstração
+## 💡 Abstração
 
-- Realizar a mecânica básica do versionamento iniciando pelo clone do repositório, criação da Branch, realização das alterações no código, commit, push e finalização com o pull request (utilizando o repositorio GitHub).
-- Este é o cenário encontrado na maioria das empresas em relação ao trabalho colaborativo entre desenvolvedores e este entendimento é de estrema importância.
+- Demonstrar a mecânica básica do versionamento: **clone do repositório**, **criação da branch**, **alterações no código**, **commit**, **push** e finalização com **Pull Request** (no repositório GitHub).
+- Esse é o cenário padrão no trabalho colaborativo entre desenvolvedores — **compreender este fluxo é essencial**.
 
 ---
 
-## Cenário 1 – Criação de Projeto
+## 🚀 Cenário 1 – Criação de Projeto
 
 Fluxo lógico da criação de um projeto no GitHub:
 
@@ -46,7 +45,8 @@ feature/music_repo01
 GitHub
 main (atualizado)
 ```
-```
+
+
 ### Passos:
 
 1. Criar repositório no GitHub: `music_school.git`
@@ -54,7 +54,7 @@ main (atualizado)
    ```bash
    git clone https://github.com/eliascruzdba/music_school.git
    cd music_school
-````
+```
 
 3. Criar branch:
 
@@ -72,7 +72,7 @@ main (atualizado)
 
 ---
 
-## Cenário 2 – Alteração de Código (PySpark Colab)
+## 🚀 Cenário 2 – Alteração de Código (PySpark Colab)
 
 Fluxo lógico de alteração:
 
